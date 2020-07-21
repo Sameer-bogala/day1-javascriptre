@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>exploringconsole</title>
+    <script>
+        console.clear();
+        console.log("sameer");
+        console.assert(true, "this is error");
+        console.assert(false, "this is error");
+        console.warn("sometingwrong");
+        console.info("wesolved");
+        console.time('timetaken');
+
+      
+        console.group('cars');
+        console.log('amaze');
+        console.log('ferrai');
+        console.group('parts');
+        console.log('wheels');
+        console.log('mirrors');
+        console.groupEnd();
+        console.log('city');
+        console.groupEnd();
+        console.timeEnd('timetaken');
+        const p = [
+             {
+            name: "sameer",
+            age: "19",
+            occupation: "student"
+            },
+
+        {
+            name: "mounisha",
+                age: "21",
+                    occupation:"job"
+
+        }
+        ]
+        console.table(p);
+        console.table(p, ['name']);
+        
+        
+       
+
+
+    </script>
+</head>
+<body><h1>consolemethods:</h1>
+      <ul>
+          <li>console.log()://mainly used tolog(print) the output to the console.we can put any type inside the log()be it a string,array,object,booleanetc</li>
+          <li>console.logerror():used to log error message to the console.useful in testing of code</li>
+          <li>console.warn ():used to log warning message to the console</li>
+          <li>console.clear():used to clear the console</li>
+          <li>console.time()and console .time end(): used to now amount of time spend on ablock of function</li>
+          <li>console.count()//used to count the no of times the function hit by count</li>
+          <li>group()and group()//methods of the console objects allow us to group the contentsjust like time and time end</li>
+          <li>console.table()://allows to generate a table inside onsole</li>
+          <li>console.info()//used same as console.log()</li>
+          <li>console.asser()//stores the boolean value</li>
+          <li>console.clear();
+          console.log("sameer");
+          console.assert(true, "this is error");
+          console.assert(false, "this is error");
+          console.warn("sometingwrong");
+          console.info("wesolved");
+          console.time('timetaken');
+
+
+          console.group('cars');
+          console.log('amaze');
+          console.log('ferrai');
+          console.group('parts');
+          console.log('wheels');
+          console.log('mirrors');
+          console.groupEnd();
+          console.log('city');
+          console.groupEnd();
+          console.timeEnd('timetaken');
+          const p = [
+          {
+          name: "sameer",
+          age: "19",
+          occupation: "student"
+          },
+
+          {
+          name: "mounisha",
+          age: "21",
+          occupation:"job"
+
+          }
+          ]
+          console.table(p);
+          console.table(p, ['name']);</li>
+
+      </ul>
+</body>
+</html>
